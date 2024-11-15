@@ -2,7 +2,9 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000', // replace with your backend URL if deployed
+  baseURL: 'https://spyne-ai-assessment.onrender.com',
+  ///'http://localhost:5000', 
+  // replace with your backend URL if deployed
 });
 
 // Attach JWT token to each request
