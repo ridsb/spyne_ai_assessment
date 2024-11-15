@@ -1,0 +1,78 @@
+/* src/components/Auth/Auth.css */
+/* General Styles */
+/* src/components/Auth/Auth.css */
+/* src/components/Auth/Auth.css */
+
+/* Auth.css */
+
+/* Set the background color, image, and center the form */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  background-image: url('./pic.jpg');
+  background-size: cover; /* Ensure the image covers the entire screen */
+  background-position: center; /* Center the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white; /* Set text color to white for better contrast against background */
+}
+
+/* Style the form container */
+form {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Style the input fields */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Style the button */
+button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Add focus styles for inputs */
+input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Add some spacing and a subtle border for the form */
+form input,
+form button {
+  margin-bottom: 1rem;
+}
+
+/* Add an error message style (if you want to use it later) */
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}

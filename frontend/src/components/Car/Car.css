@@ -1,0 +1,28 @@
+/* src/components/Car/Car.css */
+.car-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .car-list-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .car-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .car-list-container li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .car-list-container li:hover {
+    background-color: #f0f0f0;
+  }
+  

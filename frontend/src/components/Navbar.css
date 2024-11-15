@@ -1,0 +1,51 @@
+/* Navbar.css */
+.navbar {
+    position: fixed; /* Use fixed positioning to keep it at the top */
+    top: 0; /* Ensure it's at the top */
+    left: 0; /* Ensure it's aligned to the left of the screen */
+    width: 100%; /* Make it span the full width of the screen */
+    background-color: #333; /* Dark background color */
+    padding: 1rem; /* Space around the navbar items */
+    display: flex; /* Use flexbox to layout navbar items */
+    justify-content: space-between; /* Space items evenly across the navbar */
+    align-items: center; /* Vertically center the navbar items */
+    z-index: 1000; /* Ensure it stays above other elements */
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px; /* Space between each link */
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    padding: 0 40px;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    
+  }
+  
+  .navbar-link:hover {
+    color: #4CAF50; /* Change color on hover */
+  }
+  
+  .navbar-logout {
+    background-color: #f44336; /* Red background for logout */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    width:200px;
+  }
+  
+  .navbar-logout:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
