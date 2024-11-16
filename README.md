@@ -42,13 +42,13 @@ To run this project locally, follow these steps:
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (for Node.js-based projects) or [Python](https://www.python.org/) (for Python-based projects)
+- [Node.js](https://nodejs.org/) (for Node.js-based projects)
 - [Git](https://git-scm.com/) for cloning the repository
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/my-backend-app.git
+git clone https://github.com/your-username/car management.git
 cd my-backend-app
 ```
 
@@ -74,7 +74,7 @@ Ensure you have the necessary environment variables configured. If you're using 
 DATABASE_URL=your-database-url
 API_KEY=your-api-key
 SECRET_KEY=your-secret-key
-PORT=your-preferred-port (optional, default to 3000 or 5000)
+PORT=your-preferred-port (optional, default to 5000)
 ```
 
 If your app doesn’t require a `.env` file, you can set the environment variables directly.
@@ -85,12 +85,6 @@ For **Node.js**:
 
 ```bash
 npm start
-```
-
-For **Python**:
-
-```bash
-python app.py
 ```
 
 Your app should now be running locally at `http://localhost:3000` (or any other port you specified).
