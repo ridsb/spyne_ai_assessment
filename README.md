@@ -31,10 +31,10 @@ Only authenticated users can perform operations on their own car listings.
 
 ## Technologies Used
 
-- **Node.js** / **Python** / **[Your framework]** (Choose appropriate for your app)
+- **Node.js**
+- **[Your framework]** (Choose appropriate for your app)
 - **Express.js** (If using Node.js)
-- **Database**: PostgreSQL / MongoDB / MySQL (Mention your database if you use one)
-- **Other Tools**: [Any other tools, libraries, or frameworks]
+- **Database**: MongoDB
 
 ## Installation
 
