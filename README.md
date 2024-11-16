@@ -1,5 +1,5 @@
 
-# My Backend Application
+# Car Management 
 
 This is a backend application deployed on [Render](https://render.com/) that handles [describe the core functionality of your application, e.g., user authentication, data processing, etc.].
 
@@ -140,17 +140,5 @@ Once deployed, you can interact with the backend using the provided endpoint. Fo
 
 Refer to the API documentation for specific endpoints.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
 ```
-
-### Key Sections to Customize:
-- **Features**: List out the key functionalities your app provides.
-- **Technologies Used**: Add any additional frameworks, tools, or services you're using.
-- **Installation**: Tailor the installation instructions based on the language and dependencies your app uses.
-- **Environment Variables**: Adjust the list of environment variables that your app requires.
-- **Deployment Instructions**: This is where you explain how to deploy the backend on Render.
-- **Usage**: Update with API endpoint information if you have any documented routes.
-
-You can also add more sections, such as **API Documentation** or **Contributing**, if applicable. Let me know if you'd like help with specific details!
